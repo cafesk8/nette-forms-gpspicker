@@ -319,8 +319,7 @@ abstract class GpsPicker extends BaseControl
 				'type' => 'text',
 				'id' => $control->id . '-search',
 				'name' => $control->name . '[search]',
-				'class' => 'gpspicker-search',
-				'style' => 'display:none'
+				'class' => 'gpspicker-search form-control'
 			));
 		}
 		$this->searchControlPrototype->value = $this->search;
