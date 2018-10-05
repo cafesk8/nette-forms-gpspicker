@@ -13,13 +13,13 @@ use Nette;
 class GpsPoint {
 
 	/** @var float */
-	private $lat;
+	public $lat;
 
 	/** @var float */
-	private $lng;
+	public $lng;
 
 	/** @var string|NULL */
-	private $address;
+	public $address;
 
 
 
