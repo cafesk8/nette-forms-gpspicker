@@ -270,7 +270,7 @@ abstract class GpsPicker extends BaseControl
 		$control->id = "{$control->id}-$name";
 		$control->name = $control->name . "[$name]";
 		$control->type = 'number';
-		$control->class[] = "gpspicker-$name";
+		$control->class = "gpspicker-$name";
 		$control->value = $value->$name;
 		$control->data('nette-rules', $this->prepareDataAttributes(array_values(array_filter($rules, function ($rule) use ($options) {
 			return in_array($rule['op'], $options['rules']);
