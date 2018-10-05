@@ -10,7 +10,7 @@ use Nette;
  *
  * @author Vojtěch Dobeš
  */
-class GpsPoint extends Nette\Object
+class GpsPoint extends Nette\SmartObject
 {
 
 	/** @var float */
